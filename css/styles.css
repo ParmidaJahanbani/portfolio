@@ -11393,6 +11393,7 @@ html {
 #sidebar-wrapper.active {
   right: 250px;
   width: 250px;
+  margin-right: calc((100%) - 250px);6
   transition: all 0.4s ease 0s;
 }
 
