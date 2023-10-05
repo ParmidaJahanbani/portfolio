@@ -11399,6 +11399,7 @@ html {
 
 .menu-toggle {
   position: fixed;
+  margin-right: calc((100%) - 250px);
   left: 15px;
   top: 15px;
   width: 50px;
