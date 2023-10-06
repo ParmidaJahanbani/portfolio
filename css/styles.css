@@ -11288,8 +11288,9 @@ textarea.form-control-lg {
 }
 body,
 html {
-  width: 100%;
+  width: 99%;
   height: 100%;
+  margin: 0.5%;
 }
 
 .content-section {
