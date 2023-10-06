@@ -11332,15 +11332,14 @@ html {
 }
 
 #sidebar-wrapper {
-  position: fixed;
-  z-index: 2;
-  right: 0;
-  width: 250px;
-  height: 100%;
-/*   transition: all 0.4s ease 0s;
-  transform: translateX(250px); */
-  background: #1D809F;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
+    position: fixed;
+    z-index: 2;
+    right: 250px;
+    width: 250px;
+    margin-right: calc((100%) - 250px);
+    height: 100%;
+background: #1D809F;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-nav {
@@ -11391,10 +11390,11 @@ html {
 }
 
 #sidebar-wrapper.active {
-  right: 250px;
-  width: 250px;
-  margin-right: calc((100%) - 250px);
-  transition: all 0.4s ease 0s;
+    right: 250px;
+    left: 0;
+    width: 250px;
+    margin-right: calc((100%) - 250px);
+    transition: all 0.4s ease 0s;
 }
 
 .menu-toggle {
